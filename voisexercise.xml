@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Vodafone Application Test"  > <!--parallel = "tests" methods/tests/instances-->
+  <listeners>
+  <listener class-name="AllureReport.AllureListener"></listener>
+
+  </listeners>
+
+ <test thread-count="5" name="End To End Test with Chrome browser">  <!-- try : chrome/firefox/edge-->
+   <parameter name="Browser" value="chrome"></parameter>
+
+     <classes>
+       <class name="testcases.CheallengeTest"></class>
+       <class name="testcases.ReportConfig"> </class>
+     </classes>
+  </test>
+
+
+</suite>   <!-- Vodafone Application Test -->
+
+
+  
