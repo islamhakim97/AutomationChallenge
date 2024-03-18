@@ -45,7 +45,11 @@ Or you can simply download the code from The Repository as Zip File , Click on t
 <h3> Open the project on your IntelliJ/Eclipse :</h3>
 <li> Open voisexercise.xml file  and Right Click on it then click run . </li>
 <li> Open KeywordDriven.xml file  and Right Click on it then click run . </li>
-<li> Open GridLinuxVOISExercise.xml file  and Right Click on it then click run .  </li>
+<li> Open GridLinuxVOISExercise.xml file  and Right Click on it then click run .  
+But you need to :
+ 1- download selenium server on the vm machine and run this command : java -jar selenium-server-<version>.jar standalone
+ 2-Put the ip in your script to be able to initiate the connection.
+ </li>
 
  ## Reports
  
