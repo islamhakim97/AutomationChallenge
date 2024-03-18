@@ -47,6 +47,11 @@ Or you can simply download the code from The Repository as Zip File , Click on t
 <li> Open KeywordDriven.xml file  and Right Click on it then click run . </li>
 <li> Open GridLinuxVOISExercise.xml file  and Right Click on it then click run .  </li>
 
+ ## Reports
+ 
+<li>To View Allure Report : Set CMD Ti the Project Location and Enter : allure serve </li>
+<li>To View Extent Report : Go To Test Report Folder : Open ExtentReport.html on chrome </li>
+
 ## Prerequisites
 - Java Development Kit (JDK) - JDK 18 .
 - IntelliJ/Eclipse IDE for Enterprise Java and Web Developers .
